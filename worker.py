@@ -26,10 +26,10 @@ async def on_message(message):
                 kd = item['value']
             if item['key']=="Win%":
                 winpercent = item['value']
-        await client.send_message(message.channel,'''
-**'''+name+'''** currently has:
-Wins: **'''+wins+'''**
-K/D: **'''+kd+'''**
-WIN%: **'''+winpercent+'''**
-''')
+        await client.send_message(message.channel,'''```
+'''+name+'''
+Wins: '''+wins+'''
+K/D: '''+kd+'''
+WIN%: '''+winpercent+'''
+```''')
 client.run("NDIyODExNzgyMTM1MTUyNjQw.DYjpXw.CtbkPdR-r8EHrkdniDXQRpRgc-s")
