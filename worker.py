@@ -36,7 +36,7 @@ async def on_message(message):
 
 Wins: '''+wins+'''
 K/D: '''+kd+'''
-Kills: '''+kills'''
+Kills: '''+kills+'''
 Win%: '''+winpercent+'''
 Matches Played: '''+matches+'''
 
