@@ -38,7 +38,7 @@ Wins: '''+wins+'''
 K/D: '''+kd+'''
 Kills: '''+kills'''
 Win%: '''+winpercent+'''
-Matches Played: '''+matches'''
+Matches Played: '''+matches+'''
 
 Stats brought to you by shtabbbe.
 ```''')
