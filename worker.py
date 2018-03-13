@@ -26,14 +26,20 @@ async def on_message(message):
                 kd = item['value']
             if item['key']=="Win%":
                 winpercent = item['value']
+            if item['key']=='Kills':
+                kills = item['value']
+            if item['key']=='Matches Played':
+                matches = item['value']
+
         await client.send_message(message.channel,'''```
 '''+name+''':
 
-Level: 
 Wins: '''+wins+'''
 K/D: '''+kd+'''
-KPM:
+Kills: '''+kills'''
 Win%: '''+winpercent+'''
+Matches Played: '''+matches'''
 
+Stats brought to you by shtabbbe.
 ```''')
 client.run("NDIyODExNzgyMTM1MTUyNjQw.DYjpXw.CtbkPdR-r8EHrkdniDXQRpRgc-s")
