@@ -11,7 +11,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("fr "):
+    if message.content.startswith("fn "):
         name = message.content[3:]
         url = "https://api.fortnitetracker.com/v1/profile/pc/" + name
         headers = {"TRN-Api-Key" : "8db9d646-4be1-438e-b4da-c8088cbdfa8a"}
