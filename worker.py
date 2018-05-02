@@ -42,4 +42,4 @@ Matches Played: '''+matches+'''
 
 Stats brought to you by shtabbbe.
 ```''')
-client.run("NDIyODExNzgyMTM1MTUyNjQw.DYjpXw.CtbkPdR-r8EHrkdniDXQRpRgc-s")
+client.run("API-KEY")
